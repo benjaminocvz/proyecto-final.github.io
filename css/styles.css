@@ -1,0 +1,134 @@
+@font-face {
+  font-family: SpaceMono-Regular;
+  src: url(/Fuentes/SpaceMono-Regular.ttf);
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  color: rgb(0, 0, 0);
+  font-family: SpaceMono-Regular;
+  font-size: 30px;
+  font-weight: 500; /* Cambiar grosor logo navbar */
+
+}
+
+.navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+  /* Cambiar color del texto navbar */
+  font-family: SpaceMono-Regular;
+  /* Cambiar fuente del texto navbar */
+}
+
+/* Estilo inicial para el enlace BVSC */
+#bvsc {
+  color: black;
+}
+
+/* Estilo al hacer hover sobre el enlace BVSC */
+#bvsc:hover {
+  color: #777777; 
+  ;
+}
+
+.btn {
+  font-family: avenue x;
+  color: #000000;
+  border: 1px solid #000000; /* Agrega un borde al botón */
+  transition: border-color 0.3s, background-color 0.3s; /* Aplica una transición suave a los cambios de color */
+}
+
+.btn:hover {
+  background-color: #000000; /* Cambia el color de fondo al hacer hover */
+  color: #ffffff; /* Cambia el color del texto al hacer hover */
+  border-color: #ffffff; /* Cambia el color del borde al hacer hover */
+}
+
+
+
+/* Estilos generales */
+body {
+  background-color: #000000;
+  font-family: SpaceMono-Regular;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20 0px;
+}
+
+/* Estilos para el header y navbar */
+header {
+  background-color: #f8f9fa;
+  padding: 0px;
+}
+
+/* Estilos para la sección principal */
+.hero {
+  padding: 30px ;
+}
+
+.hero .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 32px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer {
+  margin-bottom: 0;
+}
+
+.Coryright {
+  text-align: center;
+  font-family: SpaceMono-Regular;
+  color: rgb(0, 0, 0);
+}
+
+.footer .social-icons a svg {
+  fill: #000000; /* Cambiar el color de los iconos */
+}
+
+.footer .social-icons a:hover svg {
+  fill: #4d4d4d; /* Cambiar el color al pasar el cursor por encima de los iconos */
+}
+
+
+
+

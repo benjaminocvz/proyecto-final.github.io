@@ -1,0 +1,161 @@
+
+@font-face {
+  font-family: SpaceMono-Regular;
+  src: url(/Fuentes/SpaceMono-Regular.ttf);
+}
+
+.navbar {
+    background-color: #000000;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-family: SpaceMono-Regular;
+    font-size: 30px;
+    font-weight: 500;
+  
+  }
+  
+  .navbar-nav .nav-link {
+    color: white;
+    font-family: SpaceMono-Regular;
+  }
+  
+
+  /* Estilo para el enlace activo */
+.nav-link.active {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+/* Estilo inicial para el enlace BVSC */
+#bvsc {
+  color: rgb(255, 255, 255);
+}
+
+/* Estilo al hacer hover sobre el enlace BVSC */
+#bvsc:hover {
+  color: #777777; 
+  ;
+}
+
+.btn {
+  font-family: SpaceMono-Regular;
+  color: #ffffff;
+  border: 1px solid #ffffff; /* Agrega un borde al botón */
+  transition: border-color 0.3s, background-color 0.3s; /* Aplica una transición suave a los cambios de color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px; /* Ajusta el espacio de relleno interno del botón según sea necesario */
+}
+
+.btn:hover {
+  background-color: #ffffff; /* Cambia el color de fondo al hacer hover */
+  color: #000000; /* Cambia el color del texto al hacer hover */
+  border-color: #ffffff; /* Cambia el color del borde al hacer hover */
+}
+
+/* Estilos generales */
+body {
+  font-family: SpaceMono-Regular;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Estilos para el header y navbar */
+header {
+  background-color: #f8f9fa;
+  padding: 0px 0;
+}
+
+
+/* Estilos para la sección principal */
+.hero {
+  padding: 40px 0;
+  background-color: #000000; /* Agrega un fondo de color al contenedor */
+}
+
+.hero .img-fluid {
+  max-width: 100%; /* Cambia "max-width" a "width" para que la imagen abarque todo el ancho */
+  height: auto;
+}
+
+.content {
+  text-align: center;
+  margin-top: 30px; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Resto de los estilos se mantienen igual */
+
+
+.content h1 {
+  text-align: left;
+  font-family: SpaceMono-Regular;
+  font-weight: 600;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.content p {
+  text-align: left;
+  font-family: SpaceMono-Regular;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+
+.btn-contact {
+  font-family: SpaceMono-Regular;
+  padding: 10px 10px; /* Espacio de relleno interno del botón */
+  font-size: 16px; /* Tamaño de fuente del botón */
+  background-color: #4caf50; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Elimina el borde del botón */
+  cursor: pointer; /* Cambia el cursor al puntero al pasar por encima del botón */
+  text-decoration: none; /* Quita la línea subrayada */
+}
+
+.btn-contact:hover {
+  text-decoration: none; /* Mantén la línea subrayada quitada al hacer hover */
+  color: #000000;
+
+}
+
+
+/* Footer */
+
+.footer {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Coryright {
+  text-align: center;
+  font-family: SpaceMono-Regular;
+  color: rgb(0, 0, 0);
+  margin: 2px;
+
+}
+
+.footer .social-icons a svg {
+  fill: #000000;
+  /* Cambiar el color de los iconos */
+}
+
+.footer .social-icons a:hover svg {
+  fill: #4d4d4d; /* Cambiar el color al pasar el cursor por encima de los iconos */
+}

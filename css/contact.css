@@ -1,0 +1,177 @@
+
+@font-face {
+    font-family: SpaceMono-Regular;
+    src: url(/Fuentes/SpaceMono-Regular.ttf);
+  }
+
+/* Navbar */
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    color: rgb(0, 0, 0);
+    font-family: SpaceMono-Regular;
+    font-size: 30px;
+    font-weight: 500;
+    /* Cambiar grosor logo navbar */
+
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    /* Cambiar color del texto navbar */
+    font-family: SpaceMono-Regular;
+    /* Cambiar fuente del texto navbar */
+}
+
+
+/* Estilo para el enlace activo */
+.nav-link.active {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+/* Estilo inicial para el enlace BVSC */
+#bvsc {
+    color: black;
+  }
+  
+  /* Estilo al hacer hover sobre el enlace BVSC */
+  #bvsc:hover {
+    color: #777777; 
+    ;
+  }
+
+.btn {
+    font-family: SpaceMono-Regular;
+    color: #000000;
+    border: 1px solid #000000; /* Agrega un borde al botón */
+    transition: border-color 0.3s, background-color 0.3s; /* Aplica una transición suave a los cambios de color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px; /* Ajusta el espacio de relleno interno del botón según sea necesario */
+  }
+  
+  .btn:hover {
+    background-color: #000000; /* Cambia el color de fondo al hacer hover */
+    color: #ffffff; /* Cambia el color del texto al hacer hover */
+    border-color: #ffffff; /* Cambia el color del borde al hacer hover */
+  }
+  
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: SpaceMono-Regular; /* Fuente de texto para el cuerpo */
+    margin: 0; /* Elimina el margen exterior */
+    padding: 0; /* Elimina el relleno interior */
+}
+
+/* Estilos para la sección de contacto */
+.contact-section {
+    display: flex; /* Utiliza flexbox para alinear los elementos en una dirección */
+    flex-direction: column; /* Organiza los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    padding: 20px; /* Espacio de relleno alrededor de la sección de contacto */
+}
+
+/* Estilos para el título de contacto */
+.contact-title {
+    font-family: SpaceMono-Regular; /* Fuente de texto para el titulo */
+    font-size: 32px; /* Tamaño de fuente del título */
+    margin-bottom: 10px; /* Margen inferior del título */
+}
+
+/* Estilos para la información de contacto */
+.contact-info {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-bottom: 20px; /* Margen inferior de la información de contacto */
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form {
+    display: flex; /* Utiliza flexbox para alinear los elementos en una dirección */
+    flex-direction: column; /* Organiza los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilos para el formulario HTML dentro de la sección de contacto */
+.contact-form form {
+    width: 300%; /* Ancho del formulario al 100% del contenedor */
+    max-width: 400px; /* Ancho máximo del formulario */
+}
+
+/* Estilos para los contenedores de elementos dentro del formulario */
+.contact-form form div {
+    margin-bottom: 10px; /* Margen inferior de los contenedores de elementos */
+}
+
+/* Estilos para las etiquetas de los campos de formulario */
+.contact-form form label {
+    display: block; /* Muestra las etiquetas en un bloque separado */
+    font-weight: bold; /* Establece la fuente en negrita */
+}
+
+/* Estilos para los campos de entrada y áreas de texto dentro del formulario */
+.contact-form form input, 
+.contact-form form textarea {
+    width: 100%; /* Ancho de los campos al 100% del contenedor */
+    padding: 5px; /* Espacio de relleno interno de los campos */
+    font-size: 16px; /* Tamaño de fuente de los campos */
+    border: 1px solid #ccc; /* Borde de 1 píxel con color gris claro */
+}
+
+.contact-form form select {
+    width: 100%; /* Ancho de los campos al 100% del contenedor */
+    padding: 5px; /* Espacio de relleno interno de los campos */
+    font-size: 16px; /* Tamaño de fuente de los campos */
+    border: 1px solid #ccc; /* Borde de 1 píxel con color gris claro */
+
+}
+
+/* Estilos para el botón de enviar dentro del formulario */
+.contact-form form button {
+    padding: 10px 20px; /* Espacio de relleno interno del botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    background-color: #4caf50; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al puntero al pasar por encima del botón */
+}
+
+/* Estilos para dispositivos con un ancho máximo de 768px */
+@media (max-width: 768px) {
+    .contact-form form {
+        max-width: 300px; /* Reduce el ancho máximo del formulario en dispositivos más pequeños */
+    }
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: rgb(255, 255, 255);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.Coryright {
+    text-align: center;
+    font-family: SpaceMono-Regular;
+    color: rgb(0, 0, 0);
+
+}
+
+.footer .social-icons a svg {
+    fill: #000000;
+    /* Cambiar el color de los iconos */
+}
+
+.footer .social-icons a:hover svg {
+    fill: #4d4d4d; /* Cambiar el color al pasar el cursor por encima de los iconos */
+  }

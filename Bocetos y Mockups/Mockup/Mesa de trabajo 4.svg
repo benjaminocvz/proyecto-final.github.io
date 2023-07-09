@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-5, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-7 {
+        font-size: 38.1px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-7 {
+        text-anchor: middle;
+        font-family: "Avenue X";
+      }
+
+      .cls-3 {
+        font-size: 84.101px;
+      }
+
+      .cls-4 {
+        font-size: 50.8px;
+      }
+
+      .cls-5 {
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+
+      .cls-6 {
+        fill: #73ae57;
+      }
+    </style>
+  </defs>
+  <g id="Mesa_de_trabajo_4" data-name="Mesa de trabajo 4">
+    <rect id="Rectángulo_5" data-name="Rectángulo 5" class="cls-1" x="-5" y="-4" width="1928" height="1083"/>
+    <text id="Contact_benjuamx_gmail.com_52_647_120_1567" data-name="Contact benjuamx@gmail.com +52 647 120 1567" class="cls-2" x="973.699" y="185.646">Contact<tspan x="973.699" dy="45.72">benjuamx@gmail.com</tspan><tspan x="973.699" dy="45.72">+52 647 120 1567</tspan></text>
+    <text id="BVSC" class="cls-3" x="152.209" y="94.772">BVSC</text>
+    <text id="Gallery_About_Contact" data-name="Gallery About Contact" class="cls-4" x="1544.208" y="77.771">Gallery About Contact</text>
+    <path id="Rectángulo_4" data-name="Rectángulo 4" class="cls-5" d="M612.619,3900.26H1315.47v47.34H612.619v-47.34Z" transform="translate(0 -3540)"/>
+    <path id="Rectángulo_4-2" data-name="Rectángulo 4" class="cls-5" d="M612.619,4006.98H1315.47v47.33H612.619v-47.33Z" transform="translate(0 -3540)"/>
+    <path id="Rectángulo_4-3" data-name="Rectángulo 4" class="cls-5" d="M612.619,4113.69H1315.47v47.34H612.619v-47.34Z" transform="translate(0 -3540)"/>
+    <path id="Rectángulo_4-4" data-name="Rectángulo 4" class="cls-5" d="M612.619,4212.38H1315.47v47.33H612.619v-47.33Z" transform="translate(0 -3540)"/>
+    <text id="Correo:" class="cls-2" transform="translate(675.068 657.715) scale(0.802)">Correo:</text>
+    <path id="Rectángulo_4-5" data-name="Rectángulo 4" class="cls-5" d="M612.619,4309.46H1315.47v96.28H612.619v-96.28Z" transform="translate(0 -3540)"/>
+    <text id="Mensaje:" class="cls-2" transform="translate(684.695 746.775) scale(0.802)">Mensaje:</text>
+    <text id="Nombre:" class="cls-2" transform="translate(675.068 337.578) scale(0.802)">Nombre:</text>
+    <text id="Apellido:" class="cls-2" transform="translate(695.126 444.289) scale(0.802)">Apellido:</text>
+    <text id="Estado:" class="cls-2" transform="translate(674.266 555.013) scale(0.802)">Estado:</text>
+    <text id="Seleccione_uno..." data-name="Seleccione uno..." class="cls-2" transform="translate(767.338 607.97) scale(0.802)">Seleccione uno...</text>
+    <rect id="Rectángulo_3" data-name="Rectángulo 3" class="cls-6" x="607" y="900.19" width="235" height="56"/>
+    <text id="Enviar" class="cls-7" x="725.13" y="941.382">Enviar</text>
+  </g>
+</svg>
